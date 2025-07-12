@@ -290,22 +290,41 @@ button:hover {
     padding: 20px 149px;
 }
 
+
+form {
+display: flex;
+flex-direction: column;
+}
+
 input {
     padding: 5px 45px;
     width: 300px;
     height: 50px;
-    gap: 10;
     margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
 }
 
 textarea {
     padding: 44px;
+    border: none;
+    border-radius: 10px;
 }
 
 textarea::placeholder {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+.section5btn {
+    padding: 20px 149px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 /* fifth end */
