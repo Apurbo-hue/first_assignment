@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-image: url(Hero-bg.png);
+    background-image: url(./Hero-bg.png);
     height: 698px;
     margin: 0 auto;
 }
