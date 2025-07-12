@@ -1,0 +1,362 @@
+/* header styles starts from here */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f5f8ff;
+}
+
+header {
+    background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
+    height: 698px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+.logo {
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+button:hover {
+    background-color: #FFDE21;
+    color: black;
+    border-radius: 0px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.btn1 {
+    padding: 12px 36px;
+}
+
+.btn2 {
+    padding: 12px 36px;
+}
+
+.header_sec {
+    margin: 150px auto;
+    width: 905px;
+    text-align: center;
+}
+
+.header_para {
+    font-weight: bold;
+    font-size: 65px;
+    margin: 150px auto;
+    font-size: 65px;
+    color: #252432;
+}
+
+/* header styles end over here */
+
+/*first box ends here*/
+
+/* section 2 starts here */
+
+.section2 {
+    width: 1140px;
+    margin: 116px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2_writing {
+    width: 517px;
+}
+
+.section2_title {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    margin: 23px 0;
+}
+
+.section2_subtitle {
+    font-size: 24px;
+    color: #8987A1;
+    font-weight: 400;
+    margin: 23px 0;
+}
+
+.section2_button {
+    padding: 12px 36px;
+    margin: 23px 0;
+}
+
+.section2 img {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+/* second box ends here */
+
+/* third box starts here */
+
+
+.section3 {
+    background-color: #4E47FF1A;
+    width: 1140px;
+    height: 306px;
+    margin: 116px auto;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.section3_title {
+    color: #252432;
+    padding: 50px;
+    font-size: 38px;
+}
+
+.section3_box_title {
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.section3_box_subtitle {
+    color: #00000080;
+    font-size: 20px;
+}
+
+.section3_boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* third box ends here */
+
+/* fourth box starts here */
+
+.sec4 {
+    width: 1140px;
+    margin: 137px auto;
+    text-align: center;
+}
+
+.sec4-title {
+    font-size: 42px;
+}
+
+.sec4-boxes {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.sec4-box {
+    width: 366px;
+    height: 243px;
+    border-radius: 14px;
+    background-color: white;
+    margin: 50px 20px 50px 0;
+}
+
+.sec4-img {
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.sec4-box-title {
+    margin: 24px;
+}
+
+.sec4-box-subtitle {
+    width: 318px;
+    margin: 24px;
+    font-weight: 400;
+}
+
+.sec4-box-bottom-img img {
+    margin-right: 12px;
+    border-radius: 50%;
+}
+
+.sec4-box-bottom {
+    display: flex;
+    margin: 24px;
+}
+
+.sec4 h5 {
+    color: #8987A1;
+}
+
+.sec4 p {
+    color: #8987A1;
+    opacity: 50%;
+}
+
+
+
+/* fourth box ends here */
+
+/* extra box starts here */
+
+.sec4-5 {
+    border-radius: 14px;
+}
+
+.sec4-5 {
+    width: 1140px;
+    height: 696px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.sec4-5_title {
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 65px;
+}
+
+.sec4-5_subtitle {
+    margin: 20px;
+    color: #8987A1;
+    font-weight: 400;
+}
+
+.sec4-5_img {
+    border-radius: 48px;
+}
+
+.sec4-5 button {
+    padding: 12px 36px;
+    margin: 20px;
+}
+
+/* extra box ends here */
+
+/* fifth start */
+.section5 {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 92px auto;
+}
+
+.section5head {
+    font-size: 97px;
+    width: 528px;
+}
+
+.section5btn {
+    padding: 20px 149px;
+}
+
+input {
+    padding: 5px 45px;
+    width: 300px;
+    height: 50px;
+    gap: 10;
+    margin-bottom: 20px;
+}
+
+textarea {
+    padding: 44px;
+}
+
+textarea::placeholder {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* fifth end */
+
+/* footer starts */
+footer {
+    text-align: center;
+    width: 100%;
+    height: 428px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-container {
+    margin: auto;
+}
+
+.footer-title {
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+}
+
+.footer-subtitle {
+    margin: 25px;
+    width: 531px;
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    padding: 20px 43px;
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* footer ends */
